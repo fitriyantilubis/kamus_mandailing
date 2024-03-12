@@ -68,17 +68,6 @@ class _PageSearchListDataState extends State<PageSearchListData> {
               ),
             ),
           ),
-          // Expanded(
-          //   child: ListView.builder(
-          //     itemCount: _filteredKosakataList.length,
-          //     itemBuilder: (context, index) {
-          //       return ListTile(
-          //         title: Text(_filteredKosakataList[index]['kosa_kata']),
-          //         subtitle: Text(_filteredKosakataList[index]['arti']),
-          //       );
-          //     },
-          //   ),
-          // ),
           Expanded(
             child: ListView.builder(
               itemCount: _filteredKosakataList.length,
